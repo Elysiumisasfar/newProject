@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl Ufongene — Portfolio</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f5f5f3; color: #1a1b1c; margin: 0; padding: 0; }
+        .max-w { max-width: 64rem; margin: 0 auto; padding: 0 1.5rem; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 0; border-bottom: 1px solid #e5e7eb; }
+        nav a { text-decoration: none; color: inherit; font-weight: bold; font-size: 0.875rem; letter-spacing: 0.05em; text-transform: uppercase; }
+        .nav-links a { margin-left: 1.5rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #4b5563; text-decoration: none; }
+        .nav-links a:hover { opacity: 0.6; }
+        main { padding: 4rem 0 3rem; }
+        h1 { font-size: 3rem; text-transform: uppercase; margin: 0.5rem 0; letter-spacing: -0.025em; }
+        .subtitle { font-size: 1.125rem; font-weight: 500; color: #374151; }
+        .bio { font-size: 0.875rem; color: #4b5563; line-height: 1.6; max-width: 36rem; }
+        section { margin-top: 4rem; padding-top: 3rem; border-top: 1px dotted #cbd5e1; }
+        h2 { font-size: 0.75rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #9ca3af; margin-bottom: 1.5rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .card { background: white; padding: 1.5rem; border: 1px solid #e5e7eb; border-radius: 2px; display: flex; flex-direction: column; justify-content: space-between; }
+        .tag { display: inline-block; font-size: 0.625rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; background: #f3f4f6; color: #4b5563; padding: 0.25rem 0.5rem; margin-bottom: 0.75rem; }
+        .card h3 { font-size: 1.125rem; margin: 0 0 0.5rem 0; }
+        .card p { font-size: 0.75rem; color: #6b7280; line-height: 1.5; margin: 0; }
+        .btn { display: inline-block; background: black; color: white; text-decoration: none; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; padding: 1rem 2rem; transition: background 0.2s; }
+        .btn:hover { background: #333; }
+        footer { max-width: 64rem; margin: 5rem auto 0; padding: 2.5rem 1.5rem; text-align: center; font-size: 0.75rem; color: #6b7280; text-transform: uppercase; letter-spacing: 0.1em; border-top: 1px solid #e5e7eb; }
+    </style>
+</head>
+<body>
+
+    <div class="max-w">
+        <nav>
+            <a href="#">Portfolio</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </div>
+
+    <main class="max-w">
+        <section style="margin-top: 0; border-top: none; padding-top: 0;">
+            <span style="font-size: 0.75rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #9ca3af;">Available for Opportunities</span>
+            <h1>Carl Ufongene</h1>
+            <p class="subtitle">Underwriter & Software Developer</p>
+            <p class="bio">Building robust web applications, data-driven solutions, and exploring intelligent systems.</p>
+        </section>
+
+        <section id="about">
+            <h2>01. About Me</h2>
+            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                <p class="bio" style="max-width: none;">Professional background combining quantitative analysis, financial risk underwriting operations, and modern front-end web technologies including React, Next.js, and Python.</p>
+                <p class="bio" style="max-width: none;">Passionate about merging quantitative insight with clean, modern engineering to build intuitive and functional digital experiences.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>02. Featured Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <div>
+                        <span class="tag">React / Next.js / TypeScript</span>
+                        <h3>Skinstric Platform Clone</h3>
+                        <p>Front-end web application build featuring dynamic layout structures, responsive components, and modern styling.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <span class="tag">Python / Django</span>
+                        <h3>Portfolio Web Application</h3>
+                        <p>Full-stack portfolio project built with Django for showcasing professional experience and technical projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>03. Get In Touch</h2>
+            <div class="card" style="max-width: 32rem; background: white;">
+                <p style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280; margin-bottom: 1.5rem;">Have an opportunity or project in mind? Let's connect.</p>
+                <a href="mailto:carl.ufongene@example.com" class="btn">Send an Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 All Rights Reserved.
+    </footer>
+
+</body>
+</html>
